@@ -1,7 +1,7 @@
 # Техническое задание на вёрстку
 
 * Название сайта: Нёрдс
-* Домен: (https://github.com/DrMarketer/nerds.git)
+* Домен: https://github.com/DrMarketer/nerds
 
 ## Общие технические требования
 
