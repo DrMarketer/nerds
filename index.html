@@ -1,25 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta charset=utf-8">
     <title>Главная страница - Нёрдс</title>
+	<link rel = "stylesheet" href="style.css">
 </head>
 <body>
 	<header class="main-header">
-        <div class="main-header-block container clearfix">
-            <figure class="main-header-logo">
-                <a href="index.html">
-                    <img src="img/main-header-logo.png" width="139" height="56" alt="Nerds">
-                </a>
-            </figure>
-            <nav class="main-header-menu">
-                <a href="index.html" class="current">студия</a>
-                <a href="#">клиенты</a>
-                <a href="catalog.html">магазин</a>
-                <a href="#">контакты</a>
-                <a href="#" class="main-menu-cart">корзина</a>
-            </nav>
-        </div>
-	</header>
+		<div class = "center-container">
+        	<div class="main-header-top clearfix">
+        		<div class="main-logo">
+        			<img src="img/nerds-logo.png" width="139" height="56" alt="Nerds-logo">
+        		</div>
+        		<nav class="main-menu">
+        			<ul>
+        				<li>
+        					<a href="#">Студия</a>
+        				</li>
+        				<li>
+        					<a href="#">Клиенты</a>
+        				</li>
+        				<li>
+        					<a href="#">Магазин</a>
+        				</li>
+        				<li>
+        					<a href="#">Контакты</a>
+        				</li>
+        			</ul>
+        		</nav>
+        		<div class="cart">
+        			<a class="card" href="#">Корзина</a>
+        		</div>
+        	</div>
+        	<div class="header-content">
+        		<div class="slider">
+        			<input type="radio" name="slider" id="slide-1" checked>
+                  	<input type="radio" name="slider" id="slide-2">
+                  	<input type="radio" name="slider" id="slide-3">
+                  	<div class="slider-content">
+                        <div class="slides slide-1">
+                        	<h2>Долго, дорого, скрупулезно.</h2>
+                        	<p>Математически выверенный дизайн<br>  для вашего сайта или мобильного приложения.</p>
+                        	<a class="btn" href="#">Узнать больше</a>
+                    	</div>
+                    	<div class="slides slide-2">
+                        	<h2>Любите ли вы математику, как любим ее мы?</h2>
+                        	<p>Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать.</p>
+                        	<a class="btn" href="#">Узнать больше</a>
+                    	</div>
+                    	<div class="slides slide-3">
+                        	<h2>Только наркотики, только хардкор!</h2>
+                        	<p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов.</p>
+                        	<a class="btn" href="#">Узнать больше</a>
+                    	</div>
+                	</div>
+                	<div class="slider-controls">
+                    	<label class="slider-control-1" for="slide-1"></label>
+                    	<label class="slider-control-2" for="slide-2"></label>
+                    	<label class="slider-control-3" for="slide-3"></label>                 
+                	</div>
+            	</div>
+        	</div>
+    	</div>
+ 	</header>
+<main class="center-container">
 </body>
 </html>
